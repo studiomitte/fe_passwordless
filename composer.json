@@ -12,6 +12,9 @@
         "php": "^7.4 || ^8.1  || ^8.2",
         "typo3/cms-core": "^10.4 || ^11 || ^12"
     },
+    "license": [
+        "GPL-2.0-or-later"
+    ],
     "autoload": {
         "psr-4": {
             "StudioMitte\\FePasswordless\\": "Classes"
