@@ -1,0 +1,5 @@
+# cat=settings; type=string; label=Allowed contexts:Provide comma separated list of contexts which are allowed to use this service
+allowedContexts = Development/Ddev
+
+# cat=settings; type=string; label=Password
+password =

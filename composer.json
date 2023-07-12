@@ -1,0 +1,30 @@
+{
+    "name": "studiomitte/fe-passwordless",
+    "type": "typo3-cms-extension",
+    "description": "This extension allows to log in with any frontend user by providing the username and previously defined password.",
+    "authors": [
+        {
+            "name": "Georg Ringer",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.1  || ^8.2",
+        "typo3/cms-core": "^10.4 || ^11 || ^12"
+    },
+    "autoload": {
+        "psr-4": {
+            "StudioMitte\\FePasswordless\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "StudioMitte\\FePasswordless\\Tests\\": "Tests"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "fe_passwordless"
+        }
+    }
+}
